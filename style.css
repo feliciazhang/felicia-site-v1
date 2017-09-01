@@ -51,6 +51,7 @@ body::-webkit-scrollbar {
   background-image: linear-gradient(rgba(210, 210, 210, 0.85), rgba(210, 210, 210, 0.85)), url('./img/northeimBG.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -112,7 +113,7 @@ a:link {
 
 /* skills/projects page */
 .bgP {
-  background-image: linear-gradient(rgba(210, 210, 210, 0.85), rgba(210, 210, 210, 0.85)), url("./img/northeimBG.jpg");
+  background-image: linear-gradient(rgba(210, 210, 210, 0.85), rgba(210, 210, 210, 0.85)), url("./img/westfordBG.jpg");
   background-attachment: fixed;
   min-height: 100%; 
   background-position: center;
@@ -148,7 +149,7 @@ h3 {
 
 /* art and design page */
 .bgAD {
-  background-image: linear-gradient(rgba(210, 210, 210, 0.85), rgba(210, 210, 210, 0.85)), url("./img/northeimBG.jpg");
+  background-image: linear-gradient(rgba(210, 210, 210, 0.85), rgba(210, 210, 210, 0.85)), url("./img/bostonBG.jpg");
   background-attachment: fixed;
   min-height: 100%; 
   background-position: center;
