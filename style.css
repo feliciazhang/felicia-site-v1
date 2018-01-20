@@ -10,12 +10,6 @@ body, html {
   height: 100%;
 }
 
-/*body::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-}*/
-
-
 /* nav bar */
 .myNav, .myNav ul li a:link, a:visited, a:active {
   background-color: rgba(238, 219, 205, 0.8);
@@ -23,7 +17,7 @@ body, html {
   text-decoration-line: none;
 }
 
-.myNav li a:hover, .nav>li>a:hover {
+.myNav li a:hover, .nav>li>a:hover, .nav .dropdown-menu>li>a:hover {
   background-color: rgba(73, 78, 107, 0.8);
   color: #EDDBCD;
 }
