@@ -3,68 +3,116 @@ Projects page -->
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Felicia Zhang</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <head>
+    <title>Felicia Zhang</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <link rel = "stylesheet" type = "text/css" href = "style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand:500" rel="stylesheet">
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand:500"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  
-  <!-- nav bar -->
-  <nav class="navbar-fixed-top myNav">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="index.html" style="border-right: 1px solid #494E6B"> Felicia Zhang</a>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar-fixed-top myNav">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a
+            class="navbar-brand"
+            href="index.html"
+            style="border-right: 1px solid #494E6B"
+          >
+            Felicia Zhang</a
+          >
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">who i am</a></li>
+            <li><a href="skills.html">what i do</a></li>
+            <li><a href="projects.html">what i've done</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="art.html"
+                >art + design<span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu myNav">
+                <li><a href="art.html#studio" title="studio">studio</a></li>
+                <li><a href="art.html#digital" title="digital">digital</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                >contact <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu myNav">
+                <li>
+                  <a
+                    href="mailto:zhang.fel@husky.neu.edu"
+                    title="email"
+                    target="_blank"
+                    >zhang.fel@husky.neu.edu</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://linkedin.com/in/feliciayzhang"
+                    title="linkedin"
+                    target="_blank"
+                    >linkedin</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/feliciazhang"
+                    title="github"
+                    target="_blank"
+                    >github</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="FeliciaZhang_Resume.pdf"
+                    title="resume"
+                    target="_blank"
+                    >resume</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="about.html">who i am</a></li>
-          <li><a href="skills.html">what i do</a></li>
-          <li><a href="projects.html">what i've done</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="art.html">art + design<span class="caret"></span></a>
-            <ul class="dropdown-menu myNav">
-              <li><a href="art.html#studio" title="studio">studio</a></li>
-              <li><a href="art.html#digital" title="digital">digital</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">contact <span class="caret"></span></a>
-            <ul class="dropdown-menu myNav">
-              <li><a href="mailto:zhang.fel@husky.neu.edu" title="email" target="_blank">zhang.fel@husky.neu.edu</a></li>
-              <li><a href="https://linkedin.com/in/feliciayzhang" title="linkedin" target="_blank">linkedin</a></li>
-              <li><a href="https://github.com/feliciazhang" title="github" target="_blank">github</a></li>
-              <li><a href="FeliciaZhang_Resume.pdf" title="resume" target="_blank">resume</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- content -->
-  <div class="bgP">
-  <div class="container-fluid">
-    <div class="row" style="padding-top: 6%;">
-      <div class="col-sm-10 col-sm-offset-2">
-        <h1 style="margin-bottom: 3%;">What I've Done</h1>
-      </div>
-    </div>
+    <!-- content -->
+    <div class="bg">
+      <div class="container-fluid">
+        <div class="row" style="padding-top: 6%;">
+          <div class="col-sm-10 col-sm-offset-2">
+            <h1 style="margin-bottom: 3%;">What I've Done</h1>
+          </div>
+        </div>
 
-    <!-- projects -->
-    <!-- <div class="row oddProject">
+        <!-- projects -->
+        <!-- <div class="row oddProject">
       <div class="col-sm-3 col-sm-offset-2">
         <img src="./img/animator.PNG">
       </div>
@@ -88,64 +136,77 @@ Projects page -->
       </div>      
     </div> -->
 
-    <div class="row oddProject">
-      <div class="col-sm-3 col-sm-offset-2">
-        <img src="./img/mathIt.png">
+        <div class="row oddProject">
+          <div class="col-sm-3 col-sm-offset-2">
+            <img src="./img/mathIt.png" />
+          </div>
+          <div class="col-sm-4 col-sm-offset-1">
+            <h4>Math It</h4>
+            <h5><i>Created for GE1502</i></h5>
+            <h5><i>Using Arduino</i></h5>
+            <h6>
+              The Math It is a handheld learning tool and game designed to help
+              younger elementary school children become more proficient in
+              arithmetic. The device asks math facts, and the player must input
+              the correct answer using the buttons within the allotted time
+              limit. There are four types of play (addition, subtraction,
+              multiplication, and division) as well as three difficulty levels.
+              As a player continues to answer more questions correctly, the time
+              limit decreases, and the Math It keeps track of how many questions
+              have been correctly answered in a game.
+            </h6>
+          </div>
+        </div>
+
+        <div class="row evenProject">
+          <div class="col-sm-3 col-sm-offset-2">
+            <img src="./img/destroyer.jpg" />
+          </div>
+          <div class="col-sm-4 col-sm-offset-1">
+            <h4>The Destroyer: Sumobot</h4>
+            <h5><i>Created for GE1501</i></h5>
+            <h5><i>Using Arduino</i></h5>
+            <h6>
+              True to its name, The Destroyer squashed nearly all competition
+              during the class Sumobot competition, earning second place. With
+              two downward facing sensors and a front sensor, the robot was
+              designed to push its competitors out of the sumo ring while
+              keeping itself within the confines of the ring. The Destroyer won
+              the winner's bracket of the double elimination tournament before
+              falling to a close second in the finals. The Destroyer won the
+              vote for Best Design, Best Programming, and Runner Up awards.
+              <br />
+              For this project, we programmed the robot's movements in Arduino,
+              and constructed the curved ramp in front using balsa wood and
+              lasercut plywood.
+            </h6>
+          </div>
+        </div>
+
+        <div class="row oddProject">
+          <div class="col-sm-3 col-sm-offset-2">
+            <img src="./img/inTuneEntry.PNG" />
+            <img src="./img/inTune.PNG" style="padding-top: 0em" />
+          </div>
+          <div class="col-sm-4 col-sm-offset-1">
+            <h4>InTune</h4>
+            <h5><i>Created for Hack Beanpot 2017</i></h5>
+            <h5><i>Using HTML, CSS, JavaScript, Indico API, Spotify API</i></h5>
+            <h6>
+              If your life were a movie, what would your soundtrack sound like?
+              InTune allows users to write a journal entry describing how their
+              day went, and after analyzing the emotions expressed in that
+              entry, shows the user a playlist of songs to match their day. All
+              songs on their playlist link to spotify so they can start
+              listening right away. <br />
+              InTune won second place for best use of an Indico API at Hack
+              Beanpot 2017 in Boston, MA. I worked on the backend of this
+              project, linking together the Indico and Spotify APIs with
+              JavaScript.
+            </h6>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-4 col-sm-offset-1">
-        <h4>Math It</h4>
-        <h5><i>Created for GE1502</i></h5>
-        <h5><i>Using Arduino</i></h5>
-        <h6>The Math It is a handheld learning tool and game designed to help younger
-        elementary school children become more proficient in arithmetic. The device asks
-        math facts, and the player must input the correct answer using the buttons within the
-        allotted time limit. There are four types of play (addition, subtraction, multiplication,
-        and division) as well as three difficulty levels. As a player continues to answer more 
-        questions correctly, the time limit decreases, and the Math It keeps track of how many 
-        questions have been correctly answered in a game.</h6>
-      </div>      
     </div>
-
-    <div class="row evenProject">
-      <div class="col-sm-3 col-sm-offset-2">
-        <img src="./img/destroyer.jpg">
-      </div>
-      <div class="col-sm-4 col-sm-offset-1">
-        <h4>The Destroyer: Sumobot</h4>
-        <h5><i>Created for GE1501</i></h5>
-        <h5><i>Using Arduino</i></h5>
-        <h6>True to its name, The Destroyer squashed nearly all competition during the class Sumobot 
-        competition, earning second place. With two downward facing sensors and a front sensor, the 
-        robot was designed to push its competitors out of the sumo ring while keeping itself 
-        within the confines of the ring. The Destroyer won the winner's bracket of the double elimination 
-        tournament before falling to a close second in the finals. The Destroyer won the vote for Best Design, 
-        Best Programming, and Runner Up awards. <br>
-        For this project, we programmed the robot's movements in Arduino, and constructed the curved ramp 
-        in front using balsa wood and lasercut plywood.</h6>
-      </div>      
-    </div>
-
-    <div class="row oddProject">
-      <div class="col-sm-3 col-sm-offset-2">
-        <img src="./img/inTuneEntry.PNG">
-        <img src="./img/inTune.PNG" style="padding-top: 0em">
-      </div>
-      <div class="col-sm-4 col-sm-offset-1">
-        <h4>InTune</h4>
-        <h5><i>Created for Hack Beanpot 2017</i></h5>
-        <h5><i>Using HTML, CSS, JavaScript, Indico API, Spotify API</i></h5>
-        <h6>If your life were a movie, what would your soundtrack sound like? InTune allows users to write a 
-        journal entry describing how their day went, and after analyzing the emotions expressed in that 
-        entry, shows the user a playlist of songs to match their day. All songs on their playlist link 
-        to spotify so they can start listening right away. <br>
-        InTune won second place for best use of an Indico API at Hack Beanpot 2017 in Boston, MA. 
-        I worked on the backend of this project, linking together the Indico and Spotify
-        APIs with JavaScript.</h6>
-      </div>      
-    </div>
-
-  </div>
-  </div>
-
-</body>
+  </body>
 </html>

@@ -1,94 +1,87 @@
 /* Felicia Zhang
 My personal website */
 
-/** { 
-  border: 1px solid rgba(0, 0, 0, 0.3);
-}
-*/
-
-body, html {
+body,
+html {
   height: 100%;
 }
 
 /* nav bar */
-.myNav, .myNav ul li a:link, a:visited, a:active {
+.myNav,
+.myNav ul li a:link,
+a:visited {
   background-color: rgba(238, 219, 205, 0.8);
-  color: #494E6B;
+  color: #494e6b;
   text-decoration-line: none;
 }
 
-.myNav li a:hover, .nav>li>a:hover, .nav .dropdown-menu>li>a:hover {
+.myNav ul li a:hover,
+.myNav .dropdown-menu > li > a:hover,
+.myNav ul li a:active {
   background-color: rgba(73, 78, 107, 0.8);
-  color: #EDDBCD;
+  color: #eddbcd;
 }
 
-.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
   background-color: rgba(73, 78, 107, 0.8);
-  color: #EDDBCD;
+  color: #eddbcd;
 }
 
 .navbar-fixed-top .navbar-toggle .icon-bar {
-    background-color: #494E6B;
+  background-color: #494e6b;
 }
 
 .nav img {
   width: 20%;
 }
 
-
 /* home screen */
 .outer {
-  display: table;
-  position: absolute;
-  min-height: 100%;
-  width: 100%;
-  background-image: linear-gradient(rgba(210, 210, 210, 0.85), rgba(210, 210, 210, 0.85)), url('./img/northeimBG.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: #eddbcd;
 }
 
 .middle {
-  display: table-cell;
-  vertical-align: middle;
+  margin: auto;
 }
 
 #home img {
   width: 30%;
   height: auto;
-  margin: auto; 
+  margin: auto;
   display: block;
 }
 
 h1 {
-  color: #6B495F;
-  font-family: 'Playfair display', serif;
+  color: #6b495f;
+  font-family: "Playfair display", serif;
   font-size: 56px;
 }
 
 h2 {
-  color: #494E6B;
-  font-family: 'Playfair Display', serif;
+  color: #494e6b;
+  font-family: "Playfair Display", serif;
   font-size: 32px;
   text-transform: lowercase;
   text-align: center;
 }
 
 /* about page */
-.bgA {
-  background-image: linear-gradient(rgba(210, 210, 210, 0.85), rgba(210, 210, 210, 0.85)), url("./img/northeimBG.jpg");
-  background-attachment: fixed;
-  min-height: 100%; 
-  background-position: center;
-  background-size: cover;
+.bg {
+  background-color: #eddbcd;
+  height: 100%;
 }
 
-p, li, a:link, a:visited {
-  color: #494E6B;
-  font-family: 'Quicksand', sans-serif;
+p,
+li,
+a:link,
+a:visited {
+  color: #494e6b;
+  font-family: "Quicksand", sans-serif;
   font-size: 18px;
   text-align: justify;
 }
@@ -101,26 +94,17 @@ a:link {
   margin-top: 2em;
   width: 100%;
   height: auto;
-  border: 0.5em solid #494E6B;
+  border: 0.5em solid #494e6b;
 }
-
 
 /* skills/projects page */
-.bgP {
-  background-image: linear-gradient(rgba(210, 210, 210, 0.85), rgba(210, 210, 210, 0.85)), url("./img/westfordBG.jpg");
-  background-attachment: fixed;
-  min-height: 100%; 
-  background-position: center;
-  background-size: cover;
-}
-
 h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 36px;
-  color: #6B495F;
+  color: #6b495f;
 }
 
-.item { 
+.item {
   vertical-align: middle;
   overflow: hidden;
 }
@@ -144,18 +128,22 @@ h3 {
   background-color: rgba(73, 78, 107, 0.8);
 }
 
-.oddProject img, .evenProject img {
+.oddProject img,
+.evenProject img {
   width: 100%;
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
-.oddProject h4, h5, h6 {
-  color: #EDDBCD;
+.oddProject h4,
+h5,
+h6 {
+  color: #eddbcd;
 }
 
-h4, h5 {
-  font-family: 'Playfair Display', serif;
+h4,
+h5 {
+  font-family: "Playfair Display", serif;
   font-size: 36px;
 }
 
@@ -164,7 +152,7 @@ h5 {
 }
 
 h6 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 16px;
   text-align: justify;
 }
@@ -173,19 +161,13 @@ h6 {
   background-color: rgba(237, 219, 205, 0.8);
 }
 
-.evenProject h4, .evenProject h5, .evenProject h6 {
-  color: #494E6B;
+.evenProject h4,
+.evenProject h5,
+.evenProject h6 {
+  color: #494e6b;
 }
 
 /* art and design page */
-.bgAD {
-  background-image: linear-gradient(rgba(210, 210, 210, 0.85), rgba(210, 210, 210, 0.85)), url("./img/bostonBG.jpg");
-  background-attachment: fixed;
-  min-height: 100%; 
-  background-position: center;
-  background-size: cover;
-}
-
 .thumbnail {
   background-color: rgba(237, 219, 205, 0.8);
 }
@@ -194,7 +176,8 @@ h6 {
   height: 25%;
 }
 
-.caption p, .thumbnail a:link {
+.caption p,
+.thumbnail a:link {
   text-decoration-line: none;
   text-align: left;
   font-size: 14px;

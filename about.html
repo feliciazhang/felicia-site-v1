@@ -3,80 +3,157 @@ About page -->
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Felicia Zhang</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <head>
+    <title>Felicia Zhang</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <link rel = "stylesheet" type = "text/css" href = "style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand:500" rel="stylesheet">
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand:500"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  
-  <!-- nav bar -->
-  <nav class="navbar-fixed-top myNav">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="index.html" style="border-right: 1px solid #494E6B"> Felicia Zhang</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="about.html">who i am</a></li>
-          <li><a href="skills.html">what i do</a></li>
-          <li><a href="projects.html">what i've done</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="art.html">art + design<span class="caret"></span></a>
-            <ul class="dropdown-menu myNav">
-              <li><a href="art.html#studio" title="studio">studio</a></li>
-              <li><a href="art.html#digital" title="digital">digital</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">contact <span class="caret"></span></a>
-            <ul class="dropdown-menu myNav">
-              <li><a href="mailto:zhang.fel@husky.neu.edu" title="email" target="_blank">zhang.fel@husky.neu.edu</a></li>
-              <li><a href="https://linkedin.com/in/feliciayzhang" title="linkedin" target="_blank">linkedin</a></li>
-              <li><a href="https://github.com/feliciazhang" title="github" target="_blank">github</a></li>
-              <li><a href="FeliciaZhang_Resume.pdf" title="resume" target="_blank">resume</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
-  <!-- content -->
-  <div class="bgA">
-    <div class="container-fluid">
-      <div class="row" style="padding-top: 6%;">
-        <div class="col-sm-4 col-sm-offset-1" id="about">
-          <img src="./img/felicia.JPG" class="img-circle" alt="Felicia Zhang">
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar-fixed-top myNav">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a
+            class="navbar-brand"
+            href="index.html"
+            style="border-right: 1px solid #494E6B"
+          >
+            Felicia Zhang</a
+          >
         </div>
-        <div class="col-sm-6">
-          <h1>Who I Am</h1>
-          <p> Hey! My name is Felicia Zhang and I am a rising third year computer engineering and computer science student and Northeastern University in Boston, Massachusetts. Currently, I am working on the Lullaby/Daydream team at Google. Previously, I worked as a software developer co-op at Carbonite in Boston. I am also part of a great group of students organizing <a href="https://hackbeanpot.com/" target="_blank" title="HackBeanpot website"> Hack Beanpot</a>, a Boston based hackathon, and I am the president of <a href="https://nuwit.ccs.neu.edu" target="_blank" title="NUWIT website">Northeastern Women in Technology</a>.
-          <br>
-          <br>
-            What do I do when I'm not in front of a computer? </p>
-          <ul>
-            <li>I have a second degree black belt in Kempo karate.</li>
-            <li>I'm fascinated by foreign languages and cultures. I am familiar with Mandarin and German and am currently learning French.</li>
-            <li>Charcoal and chalk pastel are my favorite media to use for art. Check out my studio and digital portfolios under <a href="#art">art and design</a>!</li>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">who i am</a></li>
+            <li><a href="skills.html">what i do</a></li>
+            <li><a href="projects.html">what i've done</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="art.html"
+                >art + design<span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu myNav">
+                <li><a href="art.html#studio" title="studio">studio</a></li>
+                <li><a href="art.html#digital" title="digital">digital</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                >contact <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu myNav">
+                <li>
+                  <a
+                    href="mailto:zhang.fel@husky.neu.edu"
+                    title="email"
+                    target="_blank"
+                    >zhang.fel@husky.neu.edu</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://linkedin.com/in/feliciayzhang"
+                    title="linkedin"
+                    target="_blank"
+                    >linkedin</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/feliciazhang"
+                    title="github"
+                    target="_blank"
+                    >github</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="FeliciaZhang_Resume.pdf"
+                    title="resume"
+                    target="_blank"
+                    >resume</a
+                  >
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
-    </div>
-  </div>
+    </nav>
 
-</body>
+    <!-- content -->
+    <div class="bg">
+      <div class="container-fluid">
+        <div class="row" style="padding-top: 6%;">
+          <div class="col-sm-4 col-sm-offset-1" id="about">
+            <img
+              src="./img/felicia.JPG"
+              class="img-circle"
+              alt="Felicia Zhang"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h1>Who I Am</h1>
+            <p>
+              Hey! My name is Felicia Zhang and I am a rising third year
+              computer engineering and computer science student and Northeastern
+              University in Boston, Massachusetts. Currently, I am working on
+              the Lullaby/Daydream team at Google. Previously, I worked as a
+              software developer co-op at Carbonite in Boston. I am also part of
+              a great group of students organizing
+              <a
+                href="https://hackbeanpot.com/"
+                target="_blank"
+                title="HackBeanpot website"
+              >
+                Hack Beanpot</a
+              >, a Boston based hackathon, and I am the president of
+              <a
+                href="https://nuwit.ccs.neu.edu"
+                target="_blank"
+                title="NUWIT website"
+                >Northeastern Women in Technology</a
+              >.
+              <br />
+              <br />
+              What do I do when I'm not in front of a computer?
+            </p>
+            <ul>
+              <li>I have a second degree black belt in Kempo karate.</li>
+              <li>
+                I'm fascinated by foreign languages and cultures. I am familiar
+                with Mandarin and German and am currently learning French.
+              </li>
+              <li>
+                Charcoal and chalk pastel are my favorite media to use for art.
+                Check out my studio and digital portfolios under
+                <a href="#art">art and design</a>!
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
